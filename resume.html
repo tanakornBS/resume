@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my resume</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              my_lightgray: "#E7E6E1",
+              my_wheat: "#F7F6E7",
+              my_orange: "#F2A154",
+              my_deepgreen: "#314E52",
+            },
+          },
+        },
+      };
+    </script>
+
+    <style type="text/css">
+      /* 
+      ==> my color 
+      - #E7E6E1 >> light gray
+      - #F7F6E7 >> wheat
+      - #F2A154 >> orange
+      - #314E52 >> deep green
+      */
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+      .highlight-text {
+        color: #f2a154;
+        font: bold;
+      }
+      .my-container {
+        width: 80%;
+        height: 100%;
+        background-color: #e7e6e1;
+        margin: 10px auto;
+      }
+      .resume-head {
+        width: 100%;
+        background-color: #314e52;
+        text-align: center;
+        padding: 30px 0;
+      }
+      .resume-head h3 {
+        color: #f7f6e7;
+        margin: 0;
+        font-family: "PT Serif", serif;
+        font-weight: 1000;
+        font-size: 30px;
+        font-style: italic;
+      }
+      .resume-head span {
+        display: flex;
+        margin: 0 auto;
+        color: #e7e6e1;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+      .resume-content {
+        width: 90%;
+        margin: 0 auto;
+      }
+      .line-style {
+        border: solid 1.5px #314e52;
+      }
+      .content-head-list {
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 10px;
+        color: #314e52;
+      }
+    </style>
+  </head>
+  <body class="m-0 font-serif">
+    <div class="my-container">
+      <div class="resume-head">
+        <h3>Tanakorn Boonsup</h3>
+        <span>
+          <p>
+            <i class="fas fa-at"></i> 290 Nong-han Sansai Chiang Mai - Thailand
+            50290 |
+            <a
+              href="https://www.linkedin.com/in/tanakorn-boonsup-ab1a03232/"
+              target="blank"
+              class="text-my_orange"
+              ><i class="fab fa-linkedin"></i> LinkIn
+            </a> |
+            <a
+              href="https://github.com/tanakornBS"
+              target="blank"
+              class="text-my_orange"
+              ><i class="fab fa-github"></i> GitHub
+            </a>
+            | <i class="fas fa-phone"></i> <a>091-8576474</a> |
+            <i class="fas fa-envelope"></i> irregular.028@gmail.com
+          </p></span
+        >
+      </div>
+      <div class="resume-content">
+        <div>
+          <h3 class="text-3xl text-my_deepgreen mt-10">Introduction</h3>
+          <hr class="line-style" />
+          <p class="indent-8 mt-5 texl-sm italic">
+            I’m an undergraduate student at Rajamangala University of Technology
+            Lanna. I'm currently studying in the faculty of Business
+            Administration and Liberal Arts. My major is Business Information
+            System (Software Development). I will obtain a Bachelor of Arts in
+            Business Software Development.
+          </p>
+          <div class="mt-10">
+            <h5 class="texl-sm italic">Age: 23 Years old</h5>
+            <h5 class="texl-sm italic">Gender: Male</h5>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl text-my_deepgreen mt-10">Education</h3>
+          <hr class="line-style" />
+          <span class="content-head-list">
+            <h4>Rajamangala University of Technology Lanna</h4>
+            <h4>Chiang Mai, Thailand</h4>
+          </span>
+          <div class="flex justify-between">
+            <p class="italic text-sm">
+              B.B.A. in Business Administration And Liberal Arts
+              <label class="highlight-text">(GPA: 3.6)</label>
+            </p>
+            <p class="italic text-sm">Graduation Date: June 2022 (expect)</p>
+          </div>
+          <div>
+            <h4 class="text-lg text-my_deepgreen mt-6">Certificates</h4>
+            <h4 class="text-lg text-my_deepgreen ml-4">August 2019</h4>
+            <ul class="list-disc ml-10 underline underline-offset-1">
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1VBTOIBSNNRlYWoagAcM11LBsmx6O3Pyq/view?usp=sharing"
+                  target="blank"
+                  >Korean for Conversation by RMUTL Language Center</a
+                >
+              </li>
+            </ul>
+            <h4 class="text-lg text-my_deepgreen ml-4 mt-2">April 2020</h4>
+            <ul class="list-disc ml-10 underline underline-offset-1">
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1yfYw-qiFfIJ3Zj9gwRZpyYPpbHZBqTHs/view?usp=sharing"
+                  target="blank"
+                  >First Step Korean by Yonsei University</a
+                >
+              </li>
+            </ul>
+            <h4 class="text-lg text-my_deepgreen ml-4 mt-2">September 2020</h4>
+            <ul class="list-disc ml-10 underline underline-offset-1">
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/17D9nNEgswJebcrChqRAC-kwZ-s0wWvF8/view?usp=sharing"
+                  target="blank"
+                  >Microsoft Office Specialist Word 2016</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1yCg4vJHoQtm8iuZELa55bsB0KwrjgEwq/view?usp=sharing"
+                  target="blank"
+                  >Microsoft Office Specialist Excel 2016</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl text-my_deepgreen mt-10">Work Experience</h3>
+          <hr class="line-style" />
+          <h4 class="content-head-list">Interships</h4>
+          <div class="ml-3">
+            <div class="flex justify-between">
+              <p class="italic text-lg">
+                <label class="highlight-text">Software Developer</label>
+                BananaCoding Co., Ltd. - Chiang Mai Thailand
+              </p>
+              <p class="italic text-sm">November 2021 - January 2022</p>
+            </div>
+            <ul class="list-disc">
+              <li class="ml-10 texl-sm italic">
+                I'm part of a project developer team called "BloodNeed".
+                BloodNeed is a webapplication about donation of blood. It
+                developed by Ruby on Rails framework. My responsibility for this
+                project is to develop from design model into frontend via 'Erb',
+                and hotwire. Also use bootstrap CSS framework and backend by
+                default rails MVC
+              </li>
+            </ul>
+            <div class="flex justify-between mt-5">
+              <p class="italic text-lg">
+                <label class="highlight-text">Software Developer</label>
+                BananaCoding Co., Ltd. - Chiang Mai Thailand
+              </p>
+              <p class="italic text-sm">January 2022 - March 2022</p>
+            </div>
+            <ul class="list-disc">
+              <li class="ml-10 texl-sm italic">
+                I'm part of a project developer team called "YJ Apparel" is a
+                webapplication about production management system in YJ Apparel.
+                It developed by Ruby on Rails framework. My responsibility for
+                this project is to develop from design model into frontend via
+                'Erb' and Stimulus JS. Also use bootstrap CSS framework, backend
+                by default rails MVC and testing type request by Rspec
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-3xl text-my_deepgreen mt-10">Skills</h3>
+          <hr class="line-style" />
+          <div class="flex items-baseline space-x-2 mt-5">
+            <h4 class="text-lg text-my_deepgreen">Computer Programming:</h4>
+            <p class="texl-sm italic">HTML, CSS, JavaScript, R and Ruby</p>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <h4 class="text-lg text-my_deepgreen">Framework:</h4>
+            <p class="texl-sm italic">
+              React, Ruby on Rails ,Tailwind ,Bootstrap and .NET (ASP.NET)
+            </p>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <h4 class="text-lg text-my_deepgreen">Relational Database:</h4>
+            <p class="texl-sm italic">MySQL and PostgreSQL</p>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <h4 class="text-lg text-my_deepgreen">IDE:</h4>
+            <p class="texl-sm italic">
+              Visual Studio Code, Visual Studio and R Studio
+            </p>
+          </div>
+
+          <div class="flex items-baseline space-x-2 mt-5">
+            <h4 class="text-lg text-my_deepgreen">Graphic Design:</h4>
+            <p class="texl-sm italic">
+              Adobe Photoshop, Adobe Lightroom, Figma and Canva
+            </p>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <h4 class="text-lg text-my_deepgreen">Microsoft Office:</h4>
+            <p class="texl-sm italic">Words, Excel and Power point</p>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <h4 class="text-lg text-my_deepgreen">Orther:</h4>
+            <p class="texl-sm italic">Adobe Premiere pro and Davinci resolve</p>
+          </div>
+        </div>
+        <div class="pb-10">
+          <h3 class="text-3xl text-my_deepgreen mt-10">Hobby & Interests</h3>
+          <hr class="line-style" />
+          <div class="flex items-baseline space-x-2 mt-5">
+            <h4 class="text-lg text-my_deepgreen">Hobby:</h4>
+            <p class="texl-sm italic">Photography and playing Piano</p>
+          </div>
+          <div class="flex items-baseline space-x-2">
+            <h4 class="text-lg text-my_deepgreen">Interests:</h4>
+            <p class="texl-sm italic">Foreign language and Technology</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
